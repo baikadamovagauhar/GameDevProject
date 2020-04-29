@@ -7,6 +7,7 @@ public class InventoryUI : MonoBehaviour
 	InventorySlot[] slots;
 	public GameObject inventoryUI;
 	public GameObject diary;
+	public GameObject puzzleLayer;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +25,13 @@ public class InventoryUI : MonoBehaviour
 			inventoryUI.SetActive(!inventoryUI.activeSelf);
 			diary.SetActive(inventoryUI.activeSelf);
 		}
-		Cursor.visible = inventoryUI.activeSelf;
+		if (inventoryUI.activeSelf || puzzleLayer.activeSelf)
+		{
+			Cursor.visible = true;
+		}
+		else {
+			Cursor.visible = false;
+		}
     }
 	
 	void UpdateUI()

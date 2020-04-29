@@ -63,12 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MyScripts\ClickRotate.cs" />
     <Compile Include="Assets\MyScripts\Diary.cs" />
     <Compile Include="Assets\MyScripts\DiaryContentController.cs" />
     <Compile Include="Assets\MyScripts\DiaryController.cs" />
     <Compile Include="Assets\MyScripts\ExitBtn.cs" />
+    <Compile Include="Assets\MyScripts\ExitPuzzle.cs" />
     <Compile Include="Assets\MyScripts\FlashLightController.cs" />
     <Compile Include="Assets\MyScripts\GameControl.cs" />
+    <Compile Include="Assets\MyScripts\InteractByRadius.cs" />
     <Compile Include="Assets\MyScripts\Interactable.cs" />
     <Compile Include="Assets\MyScripts\Inventory.cs" />
     <Compile Include="Assets\MyScripts\InventorySlot.cs" />
@@ -78,7 +81,10 @@
     <Compile Include="Assets\MyScripts\MouseLook.cs" />
     <Compile Include="Assets\MyScripts\Note.cs" />
     <Compile Include="Assets\MyScripts\NotePickUp.cs" />
+    <Compile Include="Assets\MyScripts\PickUpByRadius.cs" />
     <Compile Include="Assets\MyScripts\PlayerMovement.cs" />
+    <Compile Include="Assets\MyScripts\PuzzleGame.cs" />
+    <Compile Include="Assets\MyScripts\PuzzleGameControll.cs" />
     <None Include="Assets\Interior Asset\README.txt" />
     <None Include="Assets\Interior Asset\Source\InteriorPlant\Cactus\Flower\Materials\Double Sided Transparent Diffuse Bump Cutout.shader" />
     <None Include="Assets\Interior Asset\Source\InteriorPlant\Grass\Materials\Double Sided Transparent Diffuse Bump Cutout.shader" />
@@ -86,8 +92,23 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -103,6 +124,12 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/UnityProject/GameDevProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>

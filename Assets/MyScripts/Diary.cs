@@ -23,6 +23,12 @@ public class Diary : MonoBehaviour
 
     public List<Note> notes = new List<Note>();
 
+    public bool PuzzleWin = false;
+
+    public void togglePuzzleWin() {
+        PuzzleWin = !PuzzleWin;
+    }
+
 	public bool Add(Note note)
 	{
 				

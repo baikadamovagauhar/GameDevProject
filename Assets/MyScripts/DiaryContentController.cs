@@ -15,15 +15,15 @@ public class DiaryContentController : MonoBehaviour
     public List<Text> texts = new List<Text>();
     Text[] textsPage1;
     Text[] textsPage2;
-
     // Start is called before the first frame update
     void Start()
     {
         diary = Diary.instance;
         diary.onNoteChangedCallBack += UpdatePages;
-        totalPages = diary.notes.Count / 6.0;
+        totalPages = (diary.notes.Count / 6.0);
         textsPage1 = page1.GetComponentsInChildren<Text>();
         textsPage2 = page2.GetComponentsInChildren<Text>();
+
         if (textsPage1.Length > 0)
         {
             for (int i = 0; i < textsPage1.Length; i++)
@@ -38,27 +38,32 @@ public class DiaryContentController : MonoBehaviour
                 }
             }
         }
-        
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (currentPage == 1)
-            leftBtn.SetActive(false);
-        if (currentPage >= totalPages)
-        {
-            rightBtn.SetActive(false);
-        }
-    }
 
     void UpdatePages()
     {
-        Debug.Log("Updating page");
         if (diary.notes != null && diary.notes.Count>0)
         {
-            for (int i = 0; i < diary.notes.Count; i++)
+            leftBtn.SetActive(true);
+            /*if (currentPage == 1) {
+                leftBtn.SetActive(false);
+            }
+            if (currentPage < (diary.notes.Count / 6.0))
+            {  
+                rightBtn.SetActive(false);
+            } else {
+                Debug.Log("current: " + currentPage);
+                Debug.Log("diary count: " + (diary.notes.Count / 6.0));
+                rightBtn.SetActive(true);
+            }*/
+
+            for (int i = (currentPage-1)*6; i < diary.notes.Count; i++)
             {
+                if (i == currentPage * 6)
+                {
+                    break;
+                }
                 texts[i].text = diary.notes[i].text;
             }
         }
@@ -66,6 +71,15 @@ public class DiaryContentController : MonoBehaviour
 
     public void leftClick()
     {
+        currentPage--;
+        UpdatePages();
         Debug.Log("Left btn clicked");
+    }
+    public void rightClick()
+    {
+        Debug.Log("Right btn clicked");
+        currentPage++;
+        UpdatePages();
+       
     }
 }

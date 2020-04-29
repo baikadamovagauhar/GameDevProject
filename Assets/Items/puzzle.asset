@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5297172aafc1a5e42840bd17742e9537, type: 3}
+  m_Name: puzzle
+  m_EditorClassIdentifier: 
+  name: New Note
+  text: Some text
+  type: 2
+  image1: {fileID: 2480898465112190949, guid: 17ebe57f0f6359b4194c8b4c1fab03aa, type: 3}
+  image2: {fileID: 5876344363265984628, guid: 17ebe57f0f6359b4194c8b4c1fab03aa, type: 3}
+  image3: {fileID: -7698145811299744881, guid: 17ebe57f0f6359b4194c8b4c1fab03aa, type: 3}
+  image4: {fileID: -5318718250804255436, guid: 17ebe57f0f6359b4194c8b4c1fab03aa, type: 3}
+  image5: {fileID: 6178801654575567648, guid: 17ebe57f0f6359b4194c8b4c1fab03aa, type: 3}
+  image6: {fileID: -5602342202919510879, guid: 17ebe57f0f6359b4194c8b4c1fab03aa, type: 3}
+  image7: {fileID: 5040156067582071507, guid: 17ebe57f0f6359b4194c8b4c1fab03aa, type: 3}
+  image8: {fileID: 158735053570939332, guid: 17ebe57f0f6359b4194c8b4c1fab03aa, type: 3}
+  image9: {fileID: 4628639405411100922, guid: 17ebe57f0f6359b4194c8b4c1fab03aa, type: 3}

@@ -6,6 +6,7 @@ public class MouseLook : MonoBehaviour
 {
 	public float mouseSensetivity = 200f;
     public GameObject InventoryUI;
+    public GameObject PuzzleLayer;
 	public Transform playerBody;
 	
 	float xRotation = 0f;
@@ -18,7 +19,10 @@ public class MouseLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!InventoryUI.activeSelf)
+        if (Diary.instance.PuzzleWin && !PuzzleLayer.activeSelf) {
+            Diary.instance.togglePuzzleWin();
+        }
+        if (!InventoryUI.activeSelf && !PuzzleLayer.activeSelf)
         {
             Cursor.lockState = CursorLockMode.Locked;
             float mouseX = Input.GetAxis("Mouse X") * mouseSensetivity * Time.deltaTime;
@@ -30,7 +34,8 @@ public class MouseLook : MonoBehaviour
             transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
             playerBody.Rotate(Vector3.up * mouseX);
         }
-        else {
+        
+        if(PuzzleLayer.activeSelf || InventoryUI.activeSelf) {
             Cursor.lockState = CursorLockMode.None;
         }
     }

@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: b476fa7d6d0fc62499465f51ba488a3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5418508365522121632
+    second: photo_2020-04-09_19-52-08_0
+  - first:
+      213: -6741365992542880779
+    second: photo_2020-04-09_19-52-08_1
+  - first:
+      213: 4496037578693609129
+    second: photo_2020-04-09_19-52-08_2
+  - first:
+      213: -7782865109203322420
+    second: photo_2020-04-09_19-52-08_3
+  - first:
+      213: 853132865113890813
+    second: photo_2020-04-09_19-52-08_4
+  - first:
+      213: -6547520578743365901
+    second: photo_2020-04-09_19-52-08_5
+  - first:
+      213: 2998193532184676919
+    second: photo_2020-04-09_19-52-08_6
+  - first:
+      213: -3867909358518384243
+    second: photo_2020-04-09_19-52-08_7
+  - first:
+      213: 7055023913706008103
+    second: photo_2020-04-09_19-52-08_8
+  - first:
+      213: -4171175602729412002
+    second: photo_2020-04-09_19-52-08_9
+  - first:
+      213: -2691374424126564564
+    second: photo_2020-04-09_19-52-08_10
+  - first:
+      213: -3625102603422347717
+    second: photo_2020-04-09_19-52-08_11
+  - first:
+      213: -6631356630376800122
+    second: photo_2020-04-09_19-52-08_12
+  - first:
+      213: -8118120867432557904
+    second: photo_2020-04-09_19-52-08_13
+  - first:
+      213: -3020514203808574285
+    second: photo_2020-04-09_19-52-08_14
+  - first:
+      213: -5480835324435320920
+    second: photo_2020-04-09_19-52-08_15
+  - first:
+      213: -6416021382341372908
+    second: photo_2020-04-09_19-52-08_16
+  - first:
+      213: -328737726358975642
+    second: photo_2020-04-09_19-52-08_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: photo_2020-04-09_19-52-08_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 300
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c429c99579dc4b0800000000000000
+      internalID: -5418508365522121632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2020-04-09_19-52-08_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 300
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb3599d85bd172a0800000000000000
+      internalID: -6741365992542880779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2020-04-09_19-52-08_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 300
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a607d65b52256e30800000000000000
+      internalID: 4496037578693609129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2020-04-09_19-52-08_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 150
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc977272b65bdf390800000000000000
+      internalID: -7782865109203322420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2020-04-09_19-52-08_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 150
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff135b12dfe6db00800000000000000
+      internalID: 853132865113890813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2020-04-09_19-52-08_5
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 153
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe017059b88225a0800000000000000
+      internalID: -6547520578743365901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2020-04-09_19-52-08_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73acdb5e129bb9920800000000000000
+      internalID: 2998193532184676919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2020-04-09_19-52-08_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d894a167eec625ac0800000000000000
+      internalID: -3867909358518384243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2020-04-09_19-52-08_8
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 100
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e2552deda78e160800000000000000
+      internalID: 7055023913706008103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9216e440fad62564396bd14728ce40f5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
